@@ -1,0 +1,38 @@
+body{
+    background-color: #666262;
+    margin-top: 20px;
+}
+#Timer{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 20vw;
+    width:100%;
+}
+#mainClock{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#individualClocks{
+    padding-top: 5%;
+    margin-left: 5%;
+}
+#redColor, #greenColor{
+    width: 30px;
+    height: 30px;
+    margin-top: 18%;
+    margin-right: 10px;
+}
+#redColor{
+    background-color: darkred;
+}
+#greenColor{
+    background-color: darkgreen;
+}
+.d-inline{
+    display: inline-flex;
+}
+#redColorBox{
+    padding-right: 10px;
+
+}

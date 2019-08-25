@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Riding Time Clock</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container" id="individualClocks">
+        <div class="container" id="individualClocksBox">
+            <div class="d-inline" id="redColorBox">
+                <div id="redColor"></div>
+                <h1 id="redClock">00:00</h1>
+            </div>
+            <div class="d-inline" id="greenColorBox">
+                <div id="greenColor"></div>
+                <h1 id="greenClock">00:00</h1>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+    <div class="container" id="mainClock">
+        <h1 id="Timer">00:00</h1>
+        <button id="red" type="button" class="btn btn-default">Red</button>
+        <button id="green" type="button" class="btn btn-default">Green</button>
+        <button id="neutral" type="button" class="btn btn-default">Neutral</button>
+    </div>
+
+
+    <script src="stopWatch.js"></script>
+    <script src="javascript.js"></script>
+
+</body>
+</html>
