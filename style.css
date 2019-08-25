@@ -1,6 +1,7 @@
 body{
     background-color: #666262;
     margin-top: 20px;
+    text-align: center;
 }
 #Timer{
     color: #ffffff;
@@ -10,12 +11,10 @@ body{
 }
 #mainClock{
     width: 100%;
-    margin-left: 5%;
-    margin-right: 5%;
 }
 #individualClocks{
     padding-top: 5%;
-    margin-left: 5%;
+    color: #ffffff;
 }
 #redColor, #greenColor{
     width: 30px;
@@ -24,10 +23,10 @@ body{
     margin-right: 10px;
 }
 #redColor{
-    background-color: darkred;
+    background-color: #cc3535;
 }
 #greenColor{
-    background-color: darkgreen;
+    background-color: #35cc3f;
 }
 .d-inline{
     display: inline-flex;

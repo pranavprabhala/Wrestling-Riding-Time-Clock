@@ -61,15 +61,14 @@ function setMainClockTime() {
     var mainClockTime;
     var redTime = Math.round(redTimer.getTime()/1000);
     var greenTime = Math.round(greenTimer.getTime()/1000);
-    console.log("Red Time: " + redTime)
-    console.log("Green Time: " + greenTime)
     if(redTime > greenTime){
         mainClockTime = redTime - greenTime;
+        document.body.style.background='darkred';
     }else{
         mainClockTime = greenTime - redTime;
+        document.body.style.background='darkgreen';
     };
     var formattedTime = timeFormatter(mainClockTime*1000);
-    console.log("Formatted Time: " + formattedTime);
     clock.innerHTML = formattedTime;
 
 };
